@@ -30,8 +30,17 @@ JWT_SECRET=<your-jwt-secret-key>
 PORT=8080
 ```
 
-## Supported Features
-- user defined email and password (like workday)
+## go get
+to get required packages in your own system
+```
+sh go_and_get.sh
+```
+
+## run the server
+to start the server
+```
+sh run.sh
+```
 
 ## Test JWT-AUTH Using Postman
 These are steps to follow
@@ -116,6 +125,12 @@ response body
     "updated_at": "2024-09-29T06:02:19.782Z"
 }
 ```
+
+
+---
+
+## Supported Features
+- user defined email and password (like workday)
 
 
 ## Todo
